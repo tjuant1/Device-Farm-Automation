@@ -1,0 +1,6 @@
+elements:
+  signin2_a: //a[contains(@id,'signin2')]
+  sign-username_input: //input[contains(@id,'sign-username')]
+  sign-password_input: //input[contains(@id,'sign-password')]
+  sign up_button: //button[@type='button'][contains(.,'Sign up')]
+  
