@@ -3,4 +3,13 @@ elements:
   sign-username_input: //input[contains(@id,'sign-username')]
   sign-password_input: //input[contains(@id,'sign-password')]
   sign up_button: //button[@type='button'][contains(.,'Sign up')]
-  
+  login2_a: //A[contains(@id,'login2')]
+  loginusername_input: //INPUT[contains(@id,'loginusername')]
+  loginpassword_input: //INPUT[contains(@id,'loginpassword')]
+  login_button: //button[@type='button'][contains(.,'Log in')]
+  galaxy_s6: //a[contains(.,'Samsung galaxy s6')]
+  add_cart: //a[contains(@onclick,'addToCart(1)')]
+  cart: //a[@class='nav-link'][contains(.,'Cart')]
+  delete_cart: //td[contains(.,'Delete')]
+
+  drag_element: //a[contains(.,'Phones')]
