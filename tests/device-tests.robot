@@ -2,7 +2,9 @@
 
 Resource    ../config/robot/resources.resource
 
-# Test Teardown    Close All Browsers
+Suite Teardown    Run Keywords
+...    Capture Page Screenshot    AND
+...    Close Browser
 
 *** Test Cases ***
 Register Demoblaze
